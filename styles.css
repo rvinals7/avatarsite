@@ -72,3 +72,25 @@ button {
 .images img:hover {
   transform: scale(1.05);
 }
+
+/* PANDORA ZONE */
+.pandora-zone {
+  margin: 40px;
+  padding: 20px;
+  background: #102a3b;
+  border-radius: 12px;
+}
+
+select {
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.pandora-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #1c3b52;
+  border-radius: 10px;
+  min-height: 60px;
+}

@@ -23,5 +23,25 @@
   <img src="https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg" alt="Avatar Poster">
 </section>
 
+<section class="pandora-zone">
+
+  <h2>Areas of Pandora</h2>
+  <p>Choose a region of the world:</p>
+
+  <select id="pandoraSelect" onchange="updatePandora()">
+    <option value="default">-- Select --</option>
+    <option value="peaceful">Peaceful Forest</option>
+    <option value="bioluminescent">Bioluminescent Night</option>
+    <option value="battle">Battle Zone</option>
+  </select>
+
+  <div class="pandora-box">
+    <p id="pandoraText">Select a mode to explore Pandora...</p>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+
 </body>
 </html>
