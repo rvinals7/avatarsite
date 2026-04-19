@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1d2a;
+  color: white;
+  text-align: center;
+}
+
+/* NAVIGATION */
+nav {
+  background: #142f44;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+/* HEADER */
+header {
+  padding: 20px;
+}
+
+/* HERO IMAGE */
+.hero img {
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* FACT BOX */
+.fact-box {
+  background: #1c3b52;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* BUTTON */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #00bcd4;
+  color: black;
+  border-radius: 5px;
+}
+
+/* GALLERY */
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.images img {
+  width: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.images img:hover {
+  transform: scale(1.05);
+}
